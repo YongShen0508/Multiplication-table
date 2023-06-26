@@ -108,45 +108,6 @@ int main()
     }
     cout << endl;
     */
-
-    int num1 = 3, num2 = 3, num3 = 10;
-    for (int i = num2; i <= 5; i++)
-    {
-        for (int j = num1; j >= 1; j--)
-        {
-            cout << " ";
-        }
-        for (int k = 1; k <= num2; k++)
-        {
-            cout << "* ";
-        }
-        for (int j = num1; j >= 1; j--)
-        {
-            cout << "  ";
-        }
-        for (int k = 1; k <= num2; k++)
-        {
-            cout << "* ";
-        }
-        cout << endl;
-        num1--;
-        num2++;
-
-    }
-    for (int i = 1; i <= 5; i++)
-    {
-        for (int j = 1; j <= i; j++)
-        {
-            cout << "  ";
-        }
-        for (int j = 1; j <= num3; j++)
-        {
-            cout << "* ";
-        }
-        cout << endl;
-        num3 -= 2;
-    }
-
     
 
     system("pause");
