@@ -6,25 +6,6 @@ using namespace std;
 
 int main()
 {
-
-    /*string str = "This is a string";
-    for (int i = 0; i < str.size(); i++)
-        str[i] = toupper(str[i]);
-    cout << str << endl;
-
-    for (int i = 1; i <= 5; i++)
-    {
-        for (int j = 5; j >= 1; j--)
-        {
-            if (j > i)
-                cout << " ";
-            else if (j <= i)
-                cout << "*";
-        }
-        cout << endl;
-    }
-    */
-    /*
     int num,num1;
     for (int i = 1; i <= 9; i++)
     {
@@ -45,25 +26,17 @@ int main()
         cout << endl;
     }
     cout << endl;
-    */
-    /*
-    int num;
 
-    int first, second;
-    cout << "Select first value";
-    cin >> first;
-    cout << "select second value";
-    cin >> second;
 
-    for (int i = 1; i <= 9; i++)
+
+    
+   for (int i = 1; i <= 9; i++)
     {
         for (int j = 9; j >= 1; j--)
         {
             num = i % 2;
 
             if (j > i)
-                cout << "       ";
-            else if(j==first && i==second)
                 cout << "       ";
             else if (j <= i)
                 cout << j << "X" << i << "=" << setw(2) << j * i << " ";
@@ -72,8 +45,7 @@ int main()
         cout << endl;
     }
     cout << endl;
-    */
-    /*for (int i = 9; i >= 1; i--)
+    for (int i = 9; i >= 1; i--)
     {
         for (int j = 9; j >= 1; j--)
         {
@@ -107,8 +79,6 @@ int main()
         cout << endl;
     }
     cout << endl;
-    */
-    
 
     system("pause");
     return 0;
